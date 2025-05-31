@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Stream</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="Brand Logo" width="150">
+        <h1>MOZHIHUB LOCALIZATION</h1>
+    </div>
+    <div class="video-container">
+        <iframe src="https://youtu.be/c4c6axp-Ksg?si=0OWKqc6ebd0Q5DpQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
